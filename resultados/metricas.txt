@@ -1,0 +1,10 @@
+Error relativo de verificacion de gradiente: 9.57e-09
+Hiperparametros: {'capas_ocultas': (128, 64, 32), 'tasa_aprendizaje': 0.0005, 'l2': 0.001, 'dropout': 0.3} {'epocas': 300, 'tam_lote': 64, 'paciencia': 25}
+
+Exactitud en validacion (20% estratificado):
+  Red neuronal NumPy (propia)    0.8039
+  Regresión logística            0.7872
+  MLP scikit-learn               0.8033
+
+Validacion cruzada 5 pliegues (red propia): 0.8040 +/- 0.0072
+Por pliegue: 0.8091, 0.7953, 0.8148, 0.8032, 0.7975
